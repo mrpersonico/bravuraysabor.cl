@@ -1,0 +1,84 @@
+Home - Bravura y Sabor (WordPress + Elementor)
+
+## Estructura General
+
+- **Header (Encabezado)**
+  - Logo a la izquierda.
+  - Menú de navegación principal (Inicio, Nosotros, Menú, Contacto, Delivery).
+  - Botón destacado para “Delivery” o “Haz tu pedido”.
+
+- **Sección Hero (Principal)**
+  - Imagen destacada de fondo (hamburguesa, comida, etc.).
+  - Título principal (ej. “Bravura y Sabor”).
+  - Subtítulo o slogan.
+  - Botón de llamada a la acción (“Ver menú” o “Pide ahora”).
+  - Opcional: Efecto de superposición oscura sobre la imagen para mejor legibilidad.
+
+- **Sección “Sobre Nosotros”**
+  - Breve texto de presentación.
+  - Imagen o collage de fotos del local/comida.
+  - Botón a la página “Nosotros” si aplica.
+
+- **Sección “Menú Destacado”**
+  - Galería o grid de productos populares (hamburguesa, papas, completos, etc.).
+  - Imágenes de productos, nombre y precio.
+  - Botón “Ver Menú Completo”.
+  - Opcional: Uso de tarjetas de Elementor o carrusel para mostrar productos.
+
+- **Sección “Delivery” o “Cómo Pedir”**
+  - Explicación breve de cómo pedir.
+  - Botón a WhatsApp o enlace de delivery.
+  - Logos de apps de delivery (Uber Eats, Rappi, etc. si aplica).
+
+- **Sección Testimonios o Reseñas** (opcional)
+  - Carrusel de opiniones de clientes.
+
+- **Sección “Contacto Rápido”**
+  - Mapa de ubicación (integrar Google Maps).
+  - Datos de contacto: dirección, teléfono, WhatsApp.
+  - Formulario de contacto simple.
+
+- **Footer (Pie de página)**
+  - Logo reducido.
+  - Menú secundario.
+  - Redes sociales.
+  - Derechos reservados.
+
+---
+
+## Cómo construir cada sección con Elementor
+
+### Header
+- Usa el widget “Nav Menu” de Elementor Pro o un plugin de menú gratuito.
+- Inserta el logo con el widget “Image”.
+- Botón de llamada a la acción con el widget “Button”.
+
+### Hero
+- Sección de ancho completo.
+- Fondo: imagen relevante.
+- Widgets: “Heading”, “Text Editor”, “Button”.
+
+### Sobre Nosotros
+- Dos columnas: texto a la izquierda, imagen a la derecha (opcional invertir en móvil).
+- Widgets: “Heading”, “Text Editor”, “Image”, “Button”.
+
+### Menú Destacado
+- Grid de 3-4 columnas (ajustable en móvil).
+- Widgets: “Image Box” o “Inner Section” + “Image” + “Text Editor”.
+- Agrega un botón debajo del grid.
+
+### Delivery
+- Widget “Icon List” para pasos.
+- Widget “Button” para WhatsApp/Delivery.
+- Widget “Image” para logos de apps.
+
+### Testimonios
+- Widget “Testimonial Carousel” o “Slides”.
+
+### Contacto Rápido
+- Widget “Google Maps”.
+- Widget “Icon List” para datos.
+- Widget “Form” para contacto (requiere Elementor Pro u otro plugin).
+
+### Footer
+- Widgets: “Image”, “Nav Menu”, “Social Icons”, “Text Editor”.
